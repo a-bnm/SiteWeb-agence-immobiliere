@@ -1,0 +1,86 @@
+body{
+    width:100vw;
+    height:100vh;
+    margin: 0;
+    padding: 0;
+    background: black;
+    display: block;
+}
+
+header{
+    padding:0;
+    width:auto;
+    height:10vh;
+    background: black;
+    color:white;
+    display: block;
+    z-index: 2;
+}
+
+.btnContainer{
+    
+    width: auto;
+    height:100%;
+    padding: 15px 0 0 15px;
+    z-index: 2;
+}
+
+.btn{
+    height:40%;
+    width:80px;
+    background: rgb(179, 153, 7);
+    border-radius: 10px;
+    text-align: center;
+    font-weight: bolder;
+    
+}
+.btn:hover{
+   background: rgb(134, 116, 15); 
+}
+#Menu{
+    position:relative;
+  display: none;
+  height:  60px;
+  width: 155px;
+  border-radius: 5px ;
+  background:rgb(179, 153, 7);
+  z-index: 2;
+}
+
+
+
+a{
+    width: 155px;
+    height:25px;
+    border-radius: 5px;
+    padding-top: 5px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+ 
+}
+
+a:hover{
+    background: rgb(134, 116, 15);  
+}
+
+footer{
+    color:white;
+    height:10vh;
+    position: absolute;
+    bottom:0;
+    display: block;
+    width: 100vw;
+}
+
+footer div{
+    display: inline-block;
+}
+
+footer div :before{
+    content:" ";
+    display: inline-block;
+    width: 20vw;
+}
